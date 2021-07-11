@@ -13,8 +13,10 @@
 		2767D2FB269BA2AF00E61C36 /* The_Jumping_RetardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767D2D8269BA2AB00E61C36 /* The_Jumping_RetardApp.swift */; };
 		2767D2FC269BA2AF00E61C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767D2D9269BA2AB00E61C36 /* ContentView.swift */; };
 		2767D2FD269BA2AF00E61C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767D2D9269BA2AB00E61C36 /* ContentView.swift */; };
-		2767D2FE269BA2AF00E61C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2767D2DA269BA2AF00E61C36 /* Assets.xcassets */; };
-		2767D2FF269BA2AF00E61C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2767D2DA269BA2AF00E61C36 /* Assets.xcassets */; };
+		2767D310269BA88B00E61C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2767D30F269BA88B00E61C36 /* Assets.xcassets */; };
+		2767D311269BA88B00E61C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2767D30F269BA88B00E61C36 /* Assets.xcassets */; };
+		2767D313269BA8A900E61C36 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2767D312269BA8A900E61C36 /* fonts */; };
+		2767D314269BA8A900E61C36 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2767D312269BA8A900E61C36 /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		2767D2D8269BA2AB00E61C36 /* The_Jumping_RetardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Jumping_RetardApp.swift; sourceTree = "<group>"; };
 		2767D2D9269BA2AB00E61C36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2767D2DA269BA2AF00E61C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2767D2DF269BA2AF00E61C36 /* The Jumping Retard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Jumping Retard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2767D2E5269BA2AF00E61C36 /* The Jumping Retard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Jumping Retard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2767D2EA269BA2AF00E61C36 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +46,8 @@
 		2767D2F4269BA2AF00E61C36 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2767D2F8269BA2AF00E61C36 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2767D30E269BA3F000E61C36 /* The-Jumping-Retard--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "The-Jumping-Retard--macOS--Info.plist"; sourceTree = "<group>"; };
+		2767D30F269BA88B00E61C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../flappybird/Flappy Bird/Assets.xcassets"; sourceTree = "<group>"; };
+		2767D312269BA8A900E61C36 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../../../flappybird/Flappy Bird/fonts"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +96,10 @@
 		2767D2D7269BA2AB00E61C36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2767D312269BA8A900E61C36 /* fonts */,
 				2767D2D8269BA2AB00E61C36 /* The_Jumping_RetardApp.swift */,
 				2767D2D9269BA2AB00E61C36 /* ContentView.swift */,
-				2767D2DA269BA2AF00E61C36 /* Assets.xcassets */,
+				2767D30F269BA88B00E61C36 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -252,7 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2767D2FE269BA2AF00E61C36 /* Assets.xcassets in Resources */,
+				2767D310269BA88B00E61C36 /* Assets.xcassets in Resources */,
+				2767D313269BA8A900E61C36 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2767D2FF269BA2AF00E61C36 /* Assets.xcassets in Resources */,
+				2767D311269BA88B00E61C36 /* Assets.xcassets in Resources */,
+				2767D314269BA8A900E61C36 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +388,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -435,6 +443,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
